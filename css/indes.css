@@ -1,0 +1,65 @@
+html, body {
+    font-size: 14px;
+}
+
+.articlebody {
+    margin: 0 auto;
+    width: 640px;
+}
+
+.headerbody {
+    margin: 20px auto;
+}
+
+.headerbody h1 {
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.headerbody div {
+    font-size: 13px;
+    line-height: 30px;
+}
+
+.headerbody div span:nth-last-of-type(1) {
+    color: #576B95;
+}
+
+.headerbody div span:nth-last-of-type(2) {
+    color: #AAAAAA;
+    margin-left: 10px;
+}
+
+.mainbody {
+
+}
+
+.mainbody p {
+    margin-top: 10px;
+    text-indent: 20px;
+    line-height: 30px;
+}
+
+.mainbody img {
+    margin: 10px 0;
+    width: 100%;
+}
+
+.mainbody .echarts {
+    margin: 10px auto;
+    height: 400px;
+}
+
+
+/*媒体适配：调整手机端呈现的效果*/
+@media all and (max-width: 640px) {
+    .articlebody {
+        width: 100%;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+
+    .mainbody .echarts {
+        height: 260px;
+    }
+}
